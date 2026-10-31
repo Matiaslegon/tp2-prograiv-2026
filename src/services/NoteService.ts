@@ -32,8 +32,7 @@ export class NoteServiceImpl implements NoteService {
   }
 
   getNote(id: number): Note | undefined {
-    // 🔴🟢 EJERCICIO 3: ciclo completo (test + implementación).
-    throw new Error('getNote: no implementado (Ejercicio 3)');
+    return undefined;
   }
 
   updateNote(id: number, patch: NotePatch): Note | undefined {
